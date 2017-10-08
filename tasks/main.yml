@@ -1,2 +1,9 @@
 ---
-# tasks file for ansible-jenkins_test
+
+- name: Target Host Information
+  debug:
+    msg:
+      - "OS family - {{ ansible_os_family }}"
+      - "Distro - {{ ansible_distribution }}"
+      - "{{ text_divider }}"
+      - "Version - {{ ansible_distribution_version }}"

@@ -1,2 +1,4 @@
 ---
-# defaults file for ansible-jenkins_test
+
+# Promotes readibility during playbook output
+text_divider: "============================================="
